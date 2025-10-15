@@ -1,0 +1,154 @@
+[
+      {
+        "id": 0,
+        "img": "../IMAGES/img/product/product1.jpg",
+        "img_hover": "../IMAGES/img/product/product-1.jpg",
+        "name": "FireTech X9 Pro Smartphone",
+        "price": 185,
+        "old_price": 225,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 1,
+        "img": "../IMAGES/img/product/product2.jpg",
+        "img_hover": "../IMAGES/img/product/product-2.jpg",
+        "name": "FireTech Nova S6 Android Phone",
+        "price": 100,
+        "old_price": 120,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 2,
+        "img": "../IMAGES/img/product/product3.jpg",
+        "img_hover": "../IMAGES/img/product/product-3.jpg",
+        "name": "FireTech Vision24 LED Monitor",
+        "price": 140,
+        "old_price": 200,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 3,
+        "img": "../IMAGES/img/product/product4.jpg",
+        "img_hover": "../IMAGES/img/product/product-4.jpg",
+        "name": "FireTech BeatMaster Wireless Headphones",
+        "price": 90,
+        "old_price": 110,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 4,
+        "img": "../IMAGES/img/product/product5.jpg",
+        "img_hover": "../IMAGES/img/product/product-5.jpg",
+        "name": "FireTech SonicPulse AirBass Pro Earphones",
+        "price": 350,
+        "old_price": 420,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 5,
+        "img": "../IMAGES/img/product/product6.jpg",
+        "img_hover": "../IMAGES/img/product/product-6.jpg",
+        "name": "FireTech NovaX SkyEdge Dual SIM Smartphone",
+        "price": 115,
+        "old_price": 235,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 6,
+        "img": "../IMAGES/img/product/product7.jpg",
+        "img_hover": "../IMAGES/img/product/product-7.jpg",
+        "name": "FireTech Aurex VisionOne Dual SIM Smartphone",
+        "price": 225,
+        "old_price": 280,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 7,
+        "img": "../IMAGES/img/product/product8.jpg",
+        "img_hover": "../IMAGES/img/product/product-8.jpg",
+        "name": "FireTech ChronoLink ActiveBand Smart Watch",
+        "price": 150,
+        "old_price": 200,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 8,
+        "img": "../IMAGES/img/product/product-1.jpg",
+        "img_hover": "../IMAGES/img/product/product1.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 180,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 9,
+        "img": "../IMAGES/img/product/product-2.jpg",
+        "img_hover": "../IMAGES/img/product/product2.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 300,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 10,
+        "img": "../IMAGES/img/product/product-3.jpg",
+        "img_hover": "../IMAGES/img/product/product3.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 250,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 11,
+        "img": "../IMAGES/img/product/product-4.jpg",
+        "img_hover": "../IMAGES/img/product/product4.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 120,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 12,
+        "img": "../IMAGES/img/product/product-5.jpg",
+        "img_hover": "../IMAGES/img/product/product5.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 90,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 13,
+        "img": "../IMAGES/img/product/product-6.jpg",
+        "img_hover": "../IMAGES/img/product/product6.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 129,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 14,
+        "img": "../IMAGES/img/product/product-7.jpg",
+        "img_hover": "../IMAGES/img/product/product7.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 180,
+        "added_to_cart":false,
+        "wishlist":false
+      },
+      {
+        "id": 15,
+        "img": "../IMAGES/img/product/product-8.jpg",
+        "img_hover": "../IMAGES/img/product/product8.jpg",
+        "name": "Lorem ipsum dolor sit amet.",
+        "price": 60,
+        "added_to_cart":false,
+        "wishlist":false
+      } 
+    ]

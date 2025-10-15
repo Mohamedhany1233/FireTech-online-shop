@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FireTech | Online Shop</title>
+        <!-- favicon link -->
+        <link rel="icon" href="../IMAGES/img/favicon.png">
+        <!-- CSS LINK -->
+        <link rel="stylesheet" href="../CSS/style.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- swiper link css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+    <body>
+         <header>
+            <div class="container top-nav">
+                <a href="index.html" class="logo"><img src="../IMAGES/img/logo-black.png" alt=""></a>
+                <form action="" class="search">
+                    <input type="search" placeholder="Search For Products...">
+                    <button type="submit">Search</button>
+                </form>
+                <div class="cart-header">
+                    <div class="icon-cart" onclick="openCart()">
+                        <a href="wishlist.html"><i class="fa-solid fa-heart"></i></a>
+                        <span class="count-item-wishlist count">0</span>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="links container">
+                    <i class="fa-solid fa-bars btn-open-menu" onclick="openNavMenu()"></i>
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="closeNavMenu()"></i>
+                        <img src="../IMAGES/img/logo-black.png" alt="">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="all-products.html">all products</a></li>
+                        <li><a href="index.html#onsale">on sale</a></li>
+                        <li><a href="#footer">contact</a></li>
+                    </ul>
+                    <div class="sign">
+                        <a href="login-up.html">Login<i class="fa-solid fa-right-to-bracket"></i></a>
+                        <a href="sign.html">Sign Up<i class="fa-solid fa-user-plus"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="checkout">
+            <div class="container">
+                <form action="">
+                    <div class="address">
+                        <h2>Delivery Address</h2>
+                        <div class="inputs">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="Enter Your Email" required>
+                            <label for="">Name</label>
+                            <input type="text" required placeholder="Enter Your Name">
+                            <label for="">Address</label>
+                            <input type="text" required placeholder="Enter Your Address">
+                            <label for="">Phone</label>
+                            <input type="number" required placeholder="Enter Your Phone Number">
+                        </div>
+                    </div>
+                    <div class="coupon">
+                        <h2>Coupon Code</h2>
+                        <div class="inputs">
+                            <label for=""></label>
+                            <input type="text" placeholder="Coupon Code">
+                        </div>
+                    </div>
+                </form>
+                <div class="ordersummary">
+                    <h1>Order Summary</h1>
+                    <div class="cart-products"></div>
+                    <div class="total">
+                        <p>total</p>
+                        <span class="checkout-total">$325.00</span>
+                    </div>
+                    <div class="total-submit">
+                        <button>Place Order </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <p>Back To Top</p>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="big-row">
+                    <img src="../IMAGES/img/logo-white.png" alt="">
+                    <div class="hotline">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="text">
+                            <h5>Hotline Free 24/24:</h5>
+                            <h6>(+100) 123 456 789</h6>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="row">
+                    <h4>FAQs & Help</h4>
+                    <div class="links">
+                        <a href="#">F.A.Q.'S</a>
+                        <a href="#">Ordering Tracking</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Events</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Shipping & Delivery</h4>
+                    <div class="links">
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Discount</a>
+                        <a href="#">Payment & Shipping</a>
+                        <a href="#">Estimated Delivery Time</a>
+                        <a href="#">Shipiing Guide</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Information</h4>
+                    <div class="links">
+                        <a href="#">Popular</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Your Account</a>
+                        <a href="#">Privacy & Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <p>Copyright &copy; <span>FireTech</span> all right reserved</p>
+                    <div class="payment-images">
+                        <img src="../IMAGES/img/payment-1.png" alt="">
+                        <img src="../IMAGES/img/payment-2.png" alt="">
+                        <img src="../IMAGES/img/payment-3.png" alt="">
+                        <img src="../IMAGES/img/payment-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <!-- main js Script -->
+    <script src="../JS/main.js"></script>
+    <!-- Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../JS/swiper.js"></script>
+    <!-- add Products Script -->
+    <script src="../JS/products.js"></script>
+    <!-- all-prodcuts Script -->
+    <script src="../JS/all-products.js"></script>
+    <!-- add checkout Script -->
+    <script src="../JS/checkout.js"></script>
+</html>

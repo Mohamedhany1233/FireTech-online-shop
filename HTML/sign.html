@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FireTech | Online Shop</title>
+
+        <!-- favicon link -->
+        <link rel="icon" href="../IMAGES/img/favicon.png">
+
+        <!-- CSS LINKS -->
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/login.css">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- swiper link css -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container top-nav">
+                <a href="index.html" class="logo"><img src="../IMAGES/img/logo-black.png" alt=""></a>
+                <form action="" class="search">
+                    <input type="search" placeholder="Search For Products...">
+                    <button type="submit">Search</button>
+                </form>
+
+                <div class="cart-header">
+                    <div class="icon-cart" onclick="openCart()">
+                        <a href="wishlist.html"><i class="fa-solid fa-heart"></i></a>
+                        <span class="count-item-wishlist count">0</span>
+                    </div>
+                    <div class="cart-icon">
+                        <div class="icon-cart" onclick="openCart()">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="count-item count">0</span>
+                        </div>
+                        <div class="total-price">
+                            <p>My Cart</p>
+                            <p class="price-cart-head">$0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <div class="links container">
+                    <i class="fa-solid fa-bars btn-open-menu" onclick="openNavMenu()"></i>
+                    <ul>
+                        <i class="fa-solid fa-xmark" onclick="closeNavMenu()"></i>
+                        <img src="../IMAGES/img/logo-black.png" alt="">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="all-products.html">all products</a></li>
+                        <li><a href="index.html#onsale">on sale</a></li>
+                        <li><a href="#footer">contact</a></li>
+                    </ul>
+                    
+                    <div class="sign">
+                        <a href="login-up.html">Login<i class="fa-solid fa-right-to-bracket"></i></a>
+                        <a href="sign.html">Sign Up<i class="fa-solid fa-user-plus"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="cart-overlay"></div>
+        <div class="cart">
+            <div class="top-cart">
+                <h3>My Cart <span>(0 Item In Cart)</span></h3>
+                <span class="close-cart"><i class="fa-solid fa-xmark" onclick="closeCart()"></i></span>
+            </div>
+
+            <div class="cart-items"></div>
+
+            <div class="bottom-cart">
+                <div class="total">
+                    <p>Cart Subtotal :</p>
+                    <p class="price-cart-total">$0</p>
+                </div>
+
+                <div class="cart-button">
+                    <a href="checkout.html" class="cart-btn checkout-btn">Proceed To Checkout</a>
+                    <button class="cart-btn trans-bg" onclick="closeCart()">Shop More</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="signin sec_form sign">
+            <div class="form-container">
+                <p class="title">Welcome back</p>
+                
+                <form action="" class="form">
+
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="password">
+                    <input type="password" placeholder="Confirm password">
+                    <p class="page-link">
+                        <a href="#" class="page-link-label">Forget Password?</a>
+                    </p>
+
+                    <button class="form-btn">Sign Up</button>
+                </form>
+
+                <p class="sign-up-label">
+                    have an account? <a href="login-up.html" class="sign-up-link">Login</a>
+                </p>
+
+
+                <div class="buttons-container">
+                    <div class="apple-login-button">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>Sign Up With Apple</span>
+                    </div>
+                    <div class="google-login-button">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Sign Up With google</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="back-to-top">
+            <p>Back To Top</p>
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="big-row">
+                    <img src="../IMAGES/img/logo-white.png" alt="">
+                    <div class="hotline">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="text">
+                            <h5>Hotline Free 24/24:</h5>
+                            <h6>(+100) 123 456 789</h6>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+
+                <div class="row">
+                    <h4>FAQs & Help</h4>
+
+                    <div class="links">
+                        <a href="#">F.A.Q.'S</a>
+                        <a href="#">Ordering Tracking</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Events</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Shipping & Delivery</h4>
+
+                    <div class="links">
+                        <a href="#">Delivery Information</a>
+                        <a href="#">Discount</a>
+                        <a href="#">Payment & Shipping</a>
+                        <a href="#">Estimated Delivery Time</a>
+                        <a href="#">Shipiing Guide</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>Information</h4>
+
+                    <div class="links">
+                        <a href="#">Popular</a>
+                        <a href="#">Our Services</a>
+                        <a href="#">Your Account</a>
+                        <a href="#">Privacy & Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="container">
+                    <p>Copyright &copy; <span>FireTech</span> all right reserved</p>
+                    <div class="payment-images">
+                        <img src="../IMAGES/img/payment-1.png" alt="">
+                        <img src="../IMAGES/img/payment-2.png" alt="">
+                        <img src="../IMAGES/img/payment-3.png" alt="">
+                        <img src="../IMAGES/img/payment-4.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </body>
+    <!-- main js Script -->
+    <script src="../JS/main.js"></script>
+    
+    <!-- Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../JS/swiper.js"></script>
+    
+    <!-- add Products Script -->
+    <script src="../JS/products.js"></script>
+
+    <!-- all-prodcuts Script -->
+    <script src="../JS/all-products.js"></script>
+
+    <!-- add checkout Script -->
+    <script src="../JS/checkout.js"></script>
+</html>
