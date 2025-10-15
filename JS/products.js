@@ -35,7 +35,7 @@
                             </div>
                             
                             <div class="product-name">
-                            <a href="/HTML/product-info.html">${product.name}</a>
+                            <a href="../HTML/product-info.html">${product.name}</a>
                             </div>
                             
                             <div class="product-stars">
@@ -75,7 +75,7 @@
                     </div>
                     
                     <div class="product-name">
-                    <a href="/HTML/product-info.html">${product.name}</a>
+                    <a href="../HTML/product-info.html">${product.name}</a>
                     </div>
                     
                     <div class="product-stars">
@@ -112,7 +112,7 @@
                 </div>
                 
                 <div class="product-name">
-                <a href="/HTML/product-info.html">${product.name}</a>
+                <a href="../HTML/product-info.html">${product.name}</a>
                 </div>
                 
                 <div class="product-stars">
@@ -136,4 +136,5 @@
     
     myRequest.open('GET','https://mohamedhany1233.github.io/FireTech-online-shop/ASSETS/jsonFile/items.json')
     myRequest.send()
+
 })();
