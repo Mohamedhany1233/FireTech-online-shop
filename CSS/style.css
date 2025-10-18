@@ -313,6 +313,7 @@ header nav .links .sign a:hover {
 
 .cart .cart-items .delete-item i {
     font-size: 22px;
+    background-color:#fff;
 }
 
 .cart .bottom-cart {
@@ -1669,4 +1670,5 @@ header .links ul img {
      .checkout form h2 {
         font-size: 17px;
      }
+
 }
