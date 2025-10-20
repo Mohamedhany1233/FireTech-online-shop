@@ -236,7 +236,7 @@ header nav .links .sign a:hover {
     right: -400px;
     bottom: 0;
     background-color: #fff;
-    width: 400px;
+    width: 370px;
     padding: 30px;
     border-left: 1px solid var(--border-color);
     display: flex;
@@ -313,7 +313,7 @@ header nav .links .sign a:hover {
 
 .cart .cart-items .delete-item i {
     font-size: 22px;
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .cart .bottom-cart {
@@ -1091,6 +1091,21 @@ header .links ul img {
         width: 100%;
     }
 }
+
+@media (max-width: 800px) {
+    .banner .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px;
+    }
+    .banner .container .banner-img  {
+        width: 50%;
+    }
+    .banner .container .banner-img img {
+        width: 95%;
+    }
+}
+
 @media (max-width:540px) {
     .features .container .feature-item {
         justify-content: center;
@@ -1131,8 +1146,13 @@ header .links ul img {
     .slide .container .mySwiper .btn_Swip {
         scale: 0.7;
     }
-    .banner {
-        scale: 1.1;
+    .banner .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner .container .banner-img {
+        width: 100%;
     }
 }
 
@@ -1670,5 +1690,4 @@ header .links ul img {
      .checkout form h2 {
         font-size: 17px;
      }
-
 }
