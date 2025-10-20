@@ -1096,13 +1096,13 @@ header .links ul img {
     .banner .container {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 0px;
+        align-items: center;
     }
     .banner .container .banner-img  {
         width: 50%;
     }
     .banner .container .banner-img img {
-        width: 95%;
+        width: 98%;
     }
 }
 
@@ -1691,3 +1691,4 @@ header .links ul img {
         font-size: 17px;
      }
 }
+
